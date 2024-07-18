@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear ;
   }
 }
 
@@ -35,4 +35,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Light mode styles */
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.navbar {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light mode navbar */
+.navbar-dark {
+  background-color: black !important;
+  color: white !important;
+}
+
+.navbar-dark .nav-link {
+  color: white !important;
+}
+
+/* Dark mode navbar */
+.navbar-light {
+  background-color: white !important;
+  color: black !important;
+}
+
+.navbar-light .nav-link {
+  color: black !important;
+}
+
+.btn {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-light {
+  background-color: white !important;
+  color: black !important;
+}
+
+.btn-dark {
+  background-color: black !important;
+  color: white !important;
 }
