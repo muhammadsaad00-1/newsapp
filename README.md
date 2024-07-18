@@ -1,3 +1,9 @@
+You can create a file .ene.loacal where you can assign your APIKey using newsApi 
+There 
+REACT_APP_NEWS_KEY="ur Api key"
+Rest will be fine 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
